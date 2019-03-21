@@ -4,7 +4,7 @@ const server = require('./api/server.js');
 
 // make the port dynamic #1
 // use process.env.PORT otherwise use 4000
-// yarn add dotenv
+// yarn add dotenv  
 const port = process.env.PORT || 4000;
 const greeting = process.env.GREETING
 server.listen(port, () => {
